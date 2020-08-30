@@ -4,6 +4,8 @@ body {
 .App {
   font-family: sans-serif;
   text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #2d2d2d;
 }
 button {
   background: #2d2d2d;
@@ -14,14 +16,21 @@ button {
 button:active {
   padding: 7px;
 }
-
+ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 15px;
+}
 a {
+  text-decoration: none;
   cursor: pointer;
   color: #2d2d2d;
   font-weight: bolder;
+  border-bottom: 2px solid #2d2d2d;
+  margin: 10px;
+  padding: 3px;
 }
 a:hover {
   background: #2d2d2d;
   color: white;
-  margin: 10px;
 }
