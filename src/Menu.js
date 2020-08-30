@@ -4,7 +4,7 @@ import "./styles.css";
 export default function Menu() {
   const [hash, setHash] = React.useState("https://instagram.com");
   return (
-    <div className="Menu">
+    <span className="Menu">
       <ul>
         <li>
           <a href={hash}>Dashboard</a>
@@ -16,6 +16,6 @@ export default function Menu() {
           <a href={hash}>Contact</a>
         </li>
       </ul>
-    </div>
+    </span>
   );
 }
