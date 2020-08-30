@@ -1,2 +1,0 @@
-# jsx-react-learn
-hehehehhehhehehhehe
