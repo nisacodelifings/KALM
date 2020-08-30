@@ -2,18 +2,18 @@ import React from "react";
 import "./styles.css";
 
 export default function Menu() {
-  const hash = "https://instagram.com";
+  const [hash, setHash] = React.useState("https://instagram.com");
   return (
     <div className="Menu">
       <ul>
         <li>
-          <a href="{hash}">Dashboard</a>
+          <a href={hash}>Dashboard</a>
         </li>
         <li>
-          <a href="{hash}">About</a>
+          <a href={hash}>About</a>
         </li>
         <li>
-          <a href="{hash}">Contact</a>
+          <a href={hash}>Contact</a>
         </li>
       </ul>
     </div>
