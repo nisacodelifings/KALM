@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
 body {
   background: #8ee3c8;
+  font-family: "Roboto Mono", monospace;
+}
+p {
+  margin: 10px;
+  padding: 10px;
+  border: 4px dashed #2d2d2d;
+  background: #63dfb7;
 }
 .App {
   font-family: sans-serif;
@@ -13,9 +21,12 @@ button {
   border: none;
   margin: 10px;
   color: white;
+  font-family: "Roboto Mono", monospace;
 }
 button:active {
-  padding: 7px;
+  padding: 10px;
+  border: none;
+  color: white;
 }
 ul li {
   list-style-type: none;
