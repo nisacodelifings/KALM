@@ -12,6 +12,7 @@ button {
   padding: 5px;
   border: none;
   margin: 10px;
+  color: white;
 }
 button:active {
   padding: 7px;
