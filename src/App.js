@@ -2,12 +2,13 @@ import React from "react";
 import "./styles.css";
 
 export default function App() {
+const [name, setName] = React.useState("Annisa")
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Hello {name}</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <button>
-        Update the Message!
+      <button onClick={() => setName('Whoever you')}>
+        Update the Title!
       </button>
     </div>
   );
