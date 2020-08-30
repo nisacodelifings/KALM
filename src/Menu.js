@@ -3,6 +3,7 @@ import "./styles.css";
 
 export default function Menu() {
   const [hash, setHash] = React.useState("https://instagram.com");
+
   return (
     <span className="Menu">
       <ul>
