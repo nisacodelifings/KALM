@@ -1,12 +1,27 @@
+body {
+  background: #999999;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
 }
-button{
-background: #2D2D2D;
-padding: 5px;
-border: none;
+button {
+  background: #2d2d2d;
+  padding: 5px;
+  border: none;
+  margin: 10px;
 }
-button:active{
-padding: 7px;
+button:active {
+  padding: 7px;
+}
+
+a {
+  cursor: pointer;
+  color: #2d2d2d;
+  font-weight: bolder;
+}
+a:hover {
+  background: #2d2d2d;
+  color: white;
+  margin: 10px;
 }

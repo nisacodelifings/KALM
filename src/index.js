@@ -2,13 +2,13 @@ import React from "react";
 import { render } from "react-dom";
 
 import App from "./App";
-import Menu from "./Menu";
+import Contents from "./Contents";
 
 const rootElement = document.getElementById("root");
 render(
   <React.StrictMode>
     <App />
-    <Menu />
+    <Contents />
   </React.StrictMode>,
   rootElement
 );
